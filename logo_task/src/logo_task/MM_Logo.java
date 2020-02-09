@@ -105,7 +105,7 @@ public class MM_Logo {
 		return width;
 	}
 	
-	//Method that print the whole logo
+	//Method that prints the whole logo
 	static void printMMLogo(MM_Logo obj)
 	{
 		obj.print_upperHalf(obj.n);
