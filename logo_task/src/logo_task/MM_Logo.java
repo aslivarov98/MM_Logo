@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class MM_Logo {
 	public int n;
 	
+	//method which prints a charrecter n times 
 	private void print_symbols(int n, char c)
 	{
 		for (int i=0; i<n; ++i)
@@ -32,6 +33,7 @@ public class MM_Logo {
 		return obj.n;
 	}
 	
+	//Method for printing the upper half of the logo
 	public void print_upperHalf(int n)
 	{
 		int lines=n+1;
@@ -51,7 +53,8 @@ public class MM_Logo {
 			System.out.println();
 		}
 	}
-
+	
+	////Method for printing the lower half of the logo
 	public void print_lowerHalf(int n)
 	{
 		int lines=n+1;
@@ -78,6 +81,7 @@ public class MM_Logo {
 		}
 	}
 	
+	//Method for receiving input, until the input is within the given limitations 
 	static int enterWidth()
 	{
 		int width=1;
@@ -101,6 +105,7 @@ public class MM_Logo {
 		return width;
 	}
 	
+	//Method that print the whole logo
 	static void printMMLogo(MM_Logo obj)
 	{
 		obj.print_upperHalf(obj.n);
