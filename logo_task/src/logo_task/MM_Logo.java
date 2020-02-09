@@ -54,7 +54,7 @@ public class MM_Logo {
 		}
 	}
 	
-	////Method for printing the lower half of the logo
+	//Method for printing the lower half of the logo
 	public void print_lowerHalf(int n)
 	{
 		int lines=n+1;
