@@ -98,7 +98,7 @@ public class MM_Logo {
 			}
 			else
 			{
-			System.out.print("Wrong input, enter and odd number greater than 0!\n");
+			System.out.print("Wrong input, enter an odd number greater than 0!\n");
 			}
 		}
 		s.close();
